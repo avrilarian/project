@@ -61,6 +61,7 @@ body {
 	font-weight: normal;
 	color: #888888;
 	margin: 0;
+	text-align: justify;
 }
 h2{
 	font-size:34px;
@@ -89,8 +90,8 @@ h6{
 	margin:0 0 60px 0;
 }
 p{
-	line-height:24px;
-	margin:0;
+	line-height: 24px;
+	margin: 0;
 }
 
 /* Header Styles
@@ -239,7 +240,8 @@ color: #fff;
 	line-height:38px;
 }
 .service-list-col2{
-	overflow:hidden;	
+	overflow: hidden;
+	margin-right: 0%;
 }
 .main-section.alabaster{
 	background:#fafafa;

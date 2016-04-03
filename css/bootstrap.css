@@ -256,9 +256,9 @@ table {
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 html {
   font-size: 62.5%;
@@ -294,7 +294,9 @@ a:focus {
   outline-offset: -2px;
 }
 img {
-  vertical-align: middle;
+	vertical-align: middle;
+	margin-right: 25%;
+	margin-left: 25%;
 }
 .img-responsive {
   display: block;
@@ -320,10 +322,17 @@ img {
   border-radius: 50%;
 }
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: 0;
-  border-top: 1px solid #eeeeee;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: normal;
+	margin-right: 84%;
+	margin-left: 12%;
+	border-top-width: thick;
+	border-right-width: 0;
+	border-bottom-width: thick;
+	border-left-width: 0;
+	border-top-style: solid;
+	border-top-color: #333333;
 }
 .sr-only {
   position: absolute;
